@@ -17,17 +17,11 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
   head: () => ({
     meta: [
       {
-        title: "knemo",
+        title: "KNemo",
       },
       {
         name: "description",
         content: "knemo is a web application",
-      },
-    ],
-    links: [
-      {
-        rel: "icon",
-        href: "/favicon.ico",
       },
     ],
   }),
