@@ -18,6 +18,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Eastman Grotesque";
+  src: url("/fonts/Eastman-Grotesque-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eastman Grotesque";
+  src: url("/fonts/Eastman-Grotesque-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --radius: 0.75rem;
   --background: oklch(0.958 0.0124 91.5189);
@@ -56,6 +72,7 @@
   --font-serif: Alegreya, ui-serif, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+  --font-display: "Eastman Grotesque", ui-sans-serif, sans-serif;
   --shadow-color: oklch(0 0 0);
   --shadow-opacity: 0;
   --shadow-blur: 0px;
@@ -113,6 +130,7 @@
   --font-serif: Alegreya, ui-serif, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+  --font-display: "Eastman Grotesque", ui-sans-serif, sans-serif;
   --shadow-color: oklch(0 0 0);
   --shadow-opacity: 0;
   --shadow-blur: 0px;
@@ -171,6 +189,7 @@
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --font-serif: Alegreya, ui-serif, serif;
+  --font-display: "Eastman Grotesque", ui-sans-serif, sans-serif;
   --radius: 0.75rem;
   --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
   --tracking-tight: calc(var(--tracking-normal) - 0.025em);
